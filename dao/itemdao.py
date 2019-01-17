@@ -5,7 +5,7 @@ Created on 16 de jan de 2019
 '''
 import sqlite3
 
-from basedao import BaseDao
+from dao.basedao import BaseDao
 
 class ItemDao (BaseDao):
     def create_table(self):
